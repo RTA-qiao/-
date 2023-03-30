@@ -86,7 +86,7 @@ char chang_meun() {
 	return ch;
 }
 
-/* 得到名字的函数 */
+/* 得到名字的函数*/
 static void get_name(wstring *s) {
 	
 	get_String(s);
