@@ -204,7 +204,7 @@ static bool delet_mail_node(Mail_list_node* mail , wstring ws) {
 		return false;
 	}
 	p->next = temp->next;
-	free(temp);
+	delete(temp);
 	return true;
 }
 
