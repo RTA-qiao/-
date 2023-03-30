@@ -120,7 +120,7 @@ static void get_String(wstring *S){
 	return;
 }
 
-/* 得到年龄的函数 */
+/* 得到年龄的函数*/
 static void get_age(int* age) {
 	int a = 0;
 	while (!(cin >> a) || a < 0 || a > 130)
