@@ -1,6 +1,6 @@
 #include <iostream>
 #include "通讯录头文件.h"
-/* 菜单111 */
+/* 菜单111去 */
 static char   menu();
 int main() {
 	Mail mail;

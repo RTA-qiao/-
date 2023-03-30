@@ -35,7 +35,7 @@ typedef struct Mail_list {
 bool add_Mail_list(Mail *mail);
 
 /* 2、初始化一个空的通讯录链表 */
-/* 创建成功返回true*/
+/* 创建成功返回true */
 bool Creat_mail(Mail  *mail);
 
 /* 3、显示联系人*/

@@ -357,6 +357,7 @@ bool Clear_mail(Mail *mail) {
 		q = p;
 		p = p->next;
 		delete(q);
+		//ÐÞ¸Ä¹þ
 	}
 	(*mail).size = 0;
 	return true;
